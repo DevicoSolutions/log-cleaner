@@ -1,7 +1,7 @@
 import fs from 'fs'
 import childProcess from 'child_process'
 
-const oldLogRegex = new RegExp('\\.([\\d]+)(\\.gz)?$')
+const oldLogRegex = new RegExp('\\.|\\-([\\d]+)(\\.gz)?$')
 
 export function createLogService() {
 
