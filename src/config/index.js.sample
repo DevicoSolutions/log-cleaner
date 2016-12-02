@@ -1,0 +1,9 @@
+
+export default {
+  space: {
+    triggerOn: process.env.SPACE_TRIGGER || 70
+  },
+  logs: {
+    maxLogCount: process.env.LOGS_COUNT || 2
+  }
+}
